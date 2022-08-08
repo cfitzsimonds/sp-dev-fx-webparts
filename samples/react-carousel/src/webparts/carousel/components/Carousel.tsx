@@ -183,7 +183,7 @@ export default class Carousel extends React.Component<ICarouselProps, ICarouselS
 			slidesToShow: 1,
 			slidesToScroll: 1,
 			lazyLoad: 'progressive',
-			autoplaySpeed: 3000,
+			autoplaySpeed: 10000,
 			initialSlide: this.state.photoIndex,
 			arrows: true,
 			draggable: true,

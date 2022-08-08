@@ -9,7 +9,10 @@
     "preversion": "node ./tools/pre-version.js",
     "postversion": "gulp dist",
     "test": "./node_modules/.bin/jest --config ./config/jest.config.json",
-    "test:watch": "./node_modules/.bin/jest --config ./config/jest.config.json --watchAll"
+    "test:watch": "./node_modules/.bin/jest --config ./config/jest.config.json --watchAll",
+    "serve": "gulp serve",
+    "bundle": "gulp bundle --ship",
+    "package": "gulp package-solution --ship"
   },
   "dependencies": {
     "@microsoft/sp-core-library": "1.12.1",
