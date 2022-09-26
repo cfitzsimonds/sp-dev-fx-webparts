@@ -4,9 +4,12 @@
   "private": true,
   "main": "lib/index.js",
   "scripts": {
-    "build": "gulp bundle",
+    "build": "gulp build",
     "clean": "gulp clean",
-    "test": "gulp test"
+    "test": "gulp test",
+    "serve": "gulp serve",
+    "bundle": "gulp bundle --ship",
+    "package": "gulp package-solution --ship"
   },
   "dependencies": {
     "@microsoft/sp-core-library": "1.13.1",
