@@ -4,7 +4,9 @@
   "private": true,
   "main": "lib/index.js",
   "scripts": {
-    "build": "gulp bundle",
+    "build": "gulp build",
+    "bundle": "gulp bundle --ship",
+    "package": "gulp package-solution --ship",
     "clean": "gulp clean",
     "test": "gulp test"
   },

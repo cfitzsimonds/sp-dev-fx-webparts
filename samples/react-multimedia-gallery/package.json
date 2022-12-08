@@ -7,7 +7,9 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "build": "gulp bundle",
+    "build": "gulp build",
+    "bundle": "gulp bundle --ship",
+    "package": "gulp package-solution --ship",
     "clean": "gulp clean",
     "preversion": "node ./tools/pre-version.js",
     "postversion": "gulp dist",

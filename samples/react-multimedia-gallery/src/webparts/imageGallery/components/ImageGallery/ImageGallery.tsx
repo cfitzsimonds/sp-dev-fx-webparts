@@ -89,7 +89,7 @@ export default class ImageGallery extends React.Component<ImageGalleryProps, Ima
       photoIndex: 0,
       isloadingCarousel: false,
       carouselImages: [],
-      autoplay: true,
+      autoplay: false,
     };
 
     this.onPlayResume = this.onPlayResume.bind(this);
