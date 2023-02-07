@@ -56,7 +56,7 @@ export default class Carousel extends React.Component<ICarouselProps, ICarouselS
 			teamsTheme: 'default',
 			photoIndex: 0,
 			carouselImages: [],
-			loadingImage: true
+			loadingImage: false
 		};
 	}
 
@@ -69,7 +69,7 @@ export default class Carousel extends React.Component<ICarouselProps, ICarouselS
 
 	private async loadPictures() {
 
-		this.setState({ isLoading: true, hasError: false });
+		this.setState({ isLoading: false, hasError: false });
 		const tenantUrl = `https://${location.host}`;
 		let galleryImages: ICarouselImages[] = [];
 		let carouselImages: React.ReactElement<HTMLElement>[] = [];

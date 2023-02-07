@@ -4,14 +4,15 @@
   "private": true,
   "engines": "undefined",
   "scripts": {
-    "build": "gulp bundle",
+    "build": "gulp build",
+    "bundle": "gulp bundle",
     "clean": "gulp clean",
     "preversion": "node ./tools/pre-version.js",
     "postversion": "gulp dist",
     "test": "./node_modules/.bin/jest --config ./config/jest.config.json",
     "test:watch": "./node_modules/.bin/jest --config ./config/jest.config.json --watchAll",
     "serve": "gulp serve",
-    "bundle": "gulp bundle --ship",
+    "ship": "gulp bundle --ship",
     "package": "gulp package-solution --ship"
   },
   "dependencies": {
