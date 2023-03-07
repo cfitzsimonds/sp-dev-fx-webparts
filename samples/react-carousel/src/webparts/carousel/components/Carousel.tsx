@@ -126,6 +126,10 @@ export default class Carousel extends React.Component<ICarouselProps, ICarouselS
 										<source src={galleryImage.serverRelativeUrl}
 										/>
 									</Player>
+									<div style={{ background: 'rgba(0, 0, 0, 0.3)', overflow: 'hidden', fontSize: FontSizes.size16, top: 0, transition: '.7s ease', textAlign: 'left', width: '200px', height: '350px', position: 'absolute', color: '#ffffff', padding: '25px' }}>
+										<h2 style={{ fontSize: FontSizes.size20, textTransform: 'uppercase', color: 'white' }}>{galleryImage.caption}</h2>
+										<p>{galleryImage.description}</p>
+									</div>
 								</div>
 								:
 								<div>
