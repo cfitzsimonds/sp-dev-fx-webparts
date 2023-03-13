@@ -3,8 +3,10 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "build": "gulp bundle",
+    "build": "gulp build",
     "clean": "gulp clean",
+    "bundle": "gulp bundle --ship",
+    "package": "gulp package-solution --ship",
     "test": "gulp test"
   },
   "dependencies": {

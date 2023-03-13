@@ -36,7 +36,7 @@
     "scriptResources": {
       "multi-screen-web-part": {
         "type": "path",
-        "path": "multi-screen-web-part.js"
+        "path": "multi-screen-web-part_00c2df8f54fbf8174acd.js"
       },
       "@microsoft/sp-core-library": {
         "type": "component",
