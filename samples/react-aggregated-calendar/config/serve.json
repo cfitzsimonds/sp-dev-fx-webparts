@@ -2,6 +2,11 @@
   "$schema": "https://dev.office.com/json-schemas/core-build/serve.schema.json",
   "port": 4321,
   "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://cfitzsimonds.sharepoint.com/sites/Play/SitePages/Aggregated-Calendar.aspx"
+    }
+  },
   "initialPage": "https://localhost:5432/workbench",
   "api": {
     "port": 5432,
